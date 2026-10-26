@@ -1,0 +1,19 @@
+[project]
+name = "salesforce-databricks-connector"
+version = "1.0.0"
+description = "Salesforce CDC to Delta Lake connector with idempotent MERGE, schema evolution, gap recovery, and governed write-back"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 130
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

@@ -1,0 +1,10 @@
+{
+  "Account": [
+    {"Id": "001A000000000001AA", "Name": "Acme Analytics", "Industry": "Retail", "AnnualRevenue": 5500000, "Rating": "Hot", "BillingAddress": {"City": "Seattle", "State": "OR"}},
+    {"Id": "001A000000000002AA", "Name": "Globex", "Industry": null, "AnnualRevenue": 12500000, "Rating": "Hot", "NumberOfEmployees": 800},
+    {"Id": "001A000000000003AA", "Name": "Initech", "Industry": "Technology", "AnnualRevenue": 800000}
+  ],
+  "Contact": [
+    {"Id": "003A000000000001AA", "FirstName": "Ada", "LastName": "Lovelace", "AccountId": "001A000000000001AA", "Email": "ada@example.com"}
+  ]
+}
